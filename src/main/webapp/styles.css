@@ -1,0 +1,52 @@
+/* styles.css - used by all pages */
+body {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  background: linear-gradient(120deg,#6a11cb,#2575fc);
+  margin: 0;
+  color: #222;
+}
+
+.header {
+  background: rgba(255,255,255,0.08);
+  padding: 8px 18px;
+  display:flex;
+  align-items:center;
+}
+
+.top-left {
+  background:#f44336;
+  color:white;
+  border:none;
+  padding:8px 12px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.container {
+  width: 720px;
+  max-width: 92%;
+  margin: 48px auto;
+  background: #fff;
+  padding: 26px 36px;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+}
+
+h1 { margin: 0 0 8px 0; color:#222; }
+h2 { margin: 8px 0 16px 0; color:#444; }
+
+label { display:block; margin:10px 0 6px; font-weight:600; }
+input[type=text], input[type=email], input[type=password], select {
+  width:100%; padding:10px; border:1px solid #ddd; border-radius:6px; box-sizing:border-box;
+}
+input[type=submit], button {
+  background:#2575fc; color:white; border:none; padding:10px 14px; border-radius:8px; cursor:pointer; font-weight:600;
+  margin-top:12px;
+}
+
+.small { font-size:0.9em; color:#666; margin-top:12px; }
+.link { color:#2575fc; text-decoration:none; }
+.link:hover { text-decoration:underline; }
+
+.table { width:100%; border-collapse: collapse; margin-top:14px; }
+.table th, .table td { border:1px solid #eee; padding:8px; text-align:left; }
